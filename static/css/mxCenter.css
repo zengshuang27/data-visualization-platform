@@ -1,0 +1,65 @@
+*{margin:0;padding:0;}
+html,body{
+	margin:0;
+	padding:0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+.allWrap{width:100%;height:100%;background:url(../img/bj.jpg)  no-repeat center top;background-size:100% 100%;position:relative;}
+.titleWrap{width:100%;height:10%;position:absolute;top:0;left:0;z-index:2;}
+
+.header img{width:100%;height:100%;}
+.bigTit{width:100%;position:absolute;left:20%;top:41%;font-size:1em;color:#FEFEFD;}
+.bigTit span{color:#5F5E61;font-size:0.8em;}
+
+.leftCon{width:30%;height:92%;display:block;position:absolute;left:.3%;top:7.3%;
+    }
+ .centerCon{width:38%;height:88.5%;
+ 	display:block;
+ 	position:absolute;left:31%;top:7.3%;
+ 	}
+.rightCon{width:30%;height:92%;display:block;position:absolute;right:.3%;top:7.3%;}
+
+ /* ×óÉÏ */
+.leftContop{width:100%;height:39%;display:inline-block;background:url(../img/leftBottom.png)  no-repeat center top !important;background-size:100% 100% !important;}
+.leftConBottom{width:100%;height:60.4%;background:url(../img/leftTop.png) no-repeat center top;background-size:100% 100%;margin-top:0%;}
+
+.rightConTop{width:100%;height:39%;display:inline-block;background:url(../img/leftBottom.png)  no-repeat center top !important;background-size:100% 100% !important;}
+.rightConCenter{width:100%;height:60.4%;background:url(../img/leftTop.png) no-repeat center top !important;background-size:100% 100% !important;}
+
+.centerConTop{width:100%;height:72%;display:inline-block;
+	background:url(../img/centerTop.png) no-repeat center top !important;background-size:100% 100% !important;}
+.centerConBottom{width:100%;height:35%;margin-top: -27px;display:inline-block;background:url(../img/centerBottom.png) no-repeat center top !important;background-size:100% 100% !important;}
+/* .leftConcenter{width:100%;height:99.5%;display:inline-block;background:#09c;}
+.topConRight{width:33.1%;height:99.5%;display:inline-block;background:purple;}
+.bottomConLeft,.bottomConCenter,.bottomConRight{width:33.1%;height:99.5%;display:inline-block;background:#d1e;} */
+
+
+#date{position:absolute;top:11%;left:1%;color:#42DFE2;font-size:1.2em;font-family:'Liquid Crystal', Times, serif;}
+#time{position:absolute;right:1%;top:11%;color:#42DFE2;font-size:1.2em;font-family:"Liquid Crystal", Times, serif;}
+
+
+
+.f1{width:120px;position:absolute;top:2%;left:4%;z-index:2;color:#ddd;font-size:.8em;font-weight: bold;}
+.f2{position:absolute;top:50.5%;left:4%;z-index:2;color:#40424E;font-size:.8em;}
+.f3{position:absolute;top:50.5%;left:21%;z-index:2;color:#40424E;font-size:.8em;}
+.f4{position:absolute;top:76.5%;left:4%;z-index:2;color:#40424E;font-size:.8em;}
+
+.r1from1{position:absolute;top: 19.5%;
+    right: 77%;z-index:2;color:#19D1CF;font-size:.8em;}
+.r1from2{position:absolute;top: 8.5%;
+    right: 48%;z-index:2;color:#193BC6;font-size:.8em;}
+.r1from3{position:absolute;top: 19.5%;
+    right: 15%;z-index:2;color:#E24826;font-size:.8em;}
+
+
+
+
+
+
+
+
+
+
+

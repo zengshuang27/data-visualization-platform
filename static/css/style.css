@@ -1,0 +1,656 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: calc(100vw / 19.2);
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+body {
+  width: 100%;
+  height: 100%;
+  background-image: url("../img/bg/bg.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden; }
+
+.container {
+  width: 100%;
+  height: 100%; }
+  .container .nav {
+    width: 100%;
+    height: 1.07rem;
+    background-image: url("../img/bg/nav.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; }
+  .container .body {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0.83rem;
+    left: 0rem;
+    right: 0rem;
+    bottom: 0rem; }
+    .container .body .con-left {
+      position: absolute;
+      width: 4.7rem;
+      height: auto;
+      top: 0rem;
+      left: 0.2rem;
+      right: 0rem;
+      bottom: auto; }
+      .container .body .con-left > div.con-left-1 {
+        -webkit-border-radius: 0.06rem;
+        -moz-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        position: relative;
+        width: 100%;
+        height: 5.86rem;
+        margin-top: 0rem; }
+        .container .body .con-left > div.con-left-1 > div.con-left-11 {
+          position: relative;
+          width: 100%;
+          height: 3.49rem;
+          margin-top: 0.2rem;
+          background-image: url("../img/bg/leftTop1.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+          .container .body .con-left > div.con-left-1 > div.con-left-11 > div:nth-child(1) {
+            width: 100%;
+            height: 100%;
+            border-width: 0.2rem;
+            border-style: solid;
+            border-color: transparent;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box; }
+            .container .body .con-left > div.con-left-1 > div.con-left-11 > div:nth-child(1)::before {
+              content: attr(data-content);
+              color: #FFF;
+              font-size: 0.14rem;
+              position: absolute;
+              display: block;
+              left: 0;
+              top: 0; }
+            .container .body .con-left > div.con-left-1 > div.con-left-11 > div:nth-child(1)::after {
+              content: attr(data-content2);
+              font-size: 0.10rem;
+              color: #636363;
+              display: block;
+              font-variant: all-small-caps;
+              position: absolute;
+              left: 0.8rem;
+              top: 0; }
+        .container .body .con-left > div.con-left-1 > div.con-left-12 {
+          position: relative;
+          width: 100%;
+          height: 2.12rem;
+          margin-top: 0.2rem;
+          background-image: url("../img/bg/leftTop2.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+          .container .body .con-left > div.con-left-1 > div.con-left-12 > div {
+            height: 100%;
+            position: relative;
+            border-top: 0.5rem solid transparent;
+            border-width: 0.2rem;
+            border-style: solid;
+            border-color: transparent;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            display: flex;
+            font-size: 0.14rem;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            color: #83c2ff;
+            text-align: center; }
+            .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div > img {
+              height: 0.42rem;
+              padding-top: 0.54rem; }
+            .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div > p {
+              padding-top: 0.15rem; }
+            .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div:nth-child(1), .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div:nth-child(6) {
+              flex: 1; }
+            .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div:nth-child(2), .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div:nth-child(3), .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div:nth-child(4), .container .body .con-left > div.con-left-1 > div.con-left-12 > div > div:nth-child(5) {
+              flex: 3; }
+            .container .body .con-left > div.con-left-1 > div.con-left-12 > div::before {
+              content: attr(data-content);
+              color: #FFF;
+              font-size: 0.14rem;
+              position: absolute;
+              display: block;
+              left: 0;
+              top: 0; }
+            .container .body .con-left > div.con-left-1 > div.con-left-12 > div::after {
+              content: attr(data-content2);
+              font-size: 0.10rem;
+              color: #636363;
+              display: block;
+              font-variant: all-small-caps;
+              position: absolute;
+              left: 0.8rem;
+              top: 0; }
+      .container .body .con-left > div.con-left-2 {
+        background-image: url("../img/bg/left-2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -webkit-border-radius: 0.06rem;
+        -moz-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        position: relative;
+        width: 100%;
+        height: 3.72rem;
+        margin-top: 0rem; }
+        .container .body .con-left > div.con-left-2 > div {
+          width: 100%;
+          height: 100%;
+          border-width: 0.2rem;
+          border-style: solid;
+          border-color: transparent;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+          .container .body .con-left > div.con-left-2 > div::before {
+            content: attr(data-content);
+            color: #FFF;
+            font-size: 0.14rem;
+            position: absolute;
+            display: block;
+            left: 0rem;
+            top: 0rem; }
+          .container .body .con-left > div.con-left-2 > div::after {
+            content: attr(data-content2);
+            font-size: 0.10rem;
+            color: #636363;
+            display: block;
+            font-variant: all-small-caps;
+            position: absolute;
+            left: 0.8rem;
+            top: 0rem; }
+    .container .body .con-middle {
+      position: absolute;
+      width: 8.97rem;
+      height: auto;
+      top: 0rem;
+      left: 5.11rem;
+      right: auto;
+      bottom: auto; }
+      .container .body .con-middle > div:nth-child(1) {
+        background-image: url("../img/bg/middle-1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -webkit-border-radius: 0.06rem;
+        -moz-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        position: relative;
+        width: 100%;
+        height: 8.1rem;
+        margin-top: 0rem; }
+        .container .body .con-middle > div:nth-child(1)::before {
+          content: attr(data-content);
+          color: #FFF;
+          font-size: 0.14rem;
+          position: absolute;
+          display: block;
+          left: 6.29rem;
+          top: 0.61rem; }
+        .container .body .con-middle > div:nth-child(1)::after {
+          content: attr(data-content2);
+          font-size: 0.10rem;
+          color: #636363;
+          display: block;
+          font-variant: all-small-caps;
+          position: absolute;
+          left: 7.29rem;
+          top: 0.61rem; }
+        .container .body .con-middle > div:nth-child(1) .map-chart {
+          width: 3rem;
+          height: 3rem;
+          position: absolute;
+          width: 3rem;
+          height: 3rem;
+          top: 4.5rem;
+          left: 5.5rem;
+          right: auto;
+          bottom: auto; }
+      .container .body .con-middle > div:nth-child(2) {
+        background-image: url("../img/bg/middle-2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -webkit-border-radius: 0.06rem;
+        -moz-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        position: relative;
+        width: 100%;
+        height: 1.9rem;
+        margin-top: -0.2rem; }
+        .container .body .con-middle > div:nth-child(2)::before {
+          content: attr(data-content);
+          color: #FFF;
+          font-size: 0.14rem;
+          position: absolute;
+          display: block;
+          top: 0.2rem;
+          width: 100%;
+          text-align: center; }
+        .container .body .con-middle > div:nth-child(2)::after {
+          content: attr(data-content2);
+          font-size: 0.10rem;
+          color: #636363;
+          display: block;
+          font-variant: all-small-caps;
+          position: absolute;
+          left: 4.56rem;
+          top: 0.2rem; }
+        .container .body .con-middle > div:nth-child(2) > .ul-table {
+          width: 100%;
+          color: #fff;
+          border-width: 0.57rem 0.3rem 0 0.3rem;
+          border-style: solid;
+          border-color: transparent;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box; }
+          .container .body .con-middle > div:nth-child(2) > .ul-table > li {
+            list-style: none;
+            display: flex;
+            height: 0.46rem;
+            line-height: 0.46rem; }
+            .container .body .con-middle > div:nth-child(2) > .ul-table > li > div {
+              overflow: hidden;
+              text-align: left;
+              padding-left: 0.1rem;
+              flex: 1;
+              color: #83c2ff; }
+          .container .body .con-middle > div:nth-child(2) > .ul-table > li:nth-child(1) {
+            color: #83c2ff;
+            font-size: 0.16rem; }
+          .container .body .con-middle > div:nth-child(2) > .ul-table > li:nth-child(2n) {
+            font-size: 0.14rem;
+            background-color: rgba(131, 194, 255, 0.1); }
+          .container .body .con-middle > div:nth-child(2) > .ul-table > li:nth-child(2n+1) {
+            font-size: 0.14rem; }
+    .container .body .con-right {
+      position: absolute;
+      width: 4.69rem;
+      height: auto;
+      top: 0rem;
+      left: 14.28rem;
+      right: auto;
+      bottom: auto; }
+      .container .body .con-right > div:nth-child(1) {
+        -webkit-border-radius: 0.06rem;
+        -moz-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        position: relative;
+        width: 100%;
+        height: 5.86rem;
+        margin-top: 0rem; }
+        .container .body .con-right > div:nth-child(1) > div:nth-child(1) {
+          position: relative;
+          width: 100%;
+          height: 3.49rem;
+          margin-top: 0rem;
+          background-image: url("../img/bg/leftTop1.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+          .container .body .con-right > div:nth-child(1) > div:nth-child(1) > div {
+            width: 100%;
+            height: 100%;
+            border-width: 0.2rem;
+            border-style: solid;
+            border-color: transparent;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box; }
+            .container .body .con-right > div:nth-child(1) > div:nth-child(1) > div::before {
+              content: attr(data-content);
+              color: #FFF;
+              font-size: 0.14rem;
+              position: absolute;
+              display: block;
+              right: 0;
+              top: 0; }
+            .container .body .con-right > div:nth-child(1) > div:nth-child(1) > div::after {
+              content: attr(data-content2);
+              font-size: 0.10rem;
+              color: #636363;
+              display: block;
+              font-variant: all-small-caps;
+              position: absolute;
+              left: 0.8rem;
+              top: 0; }
+        .container .body .con-right > div:nth-child(1) > div:nth-child(2) {
+          position: relative;
+          width: 100%;
+          height: 2.12rem;
+          margin-top: 0.2rem;
+          background-image: url("../img/bg/leftTop2.png");
+          background-repeat: no-repeat;
+          background-size: 100% 100%; }
+          .container .body .con-right > div:nth-child(1) > div:nth-child(2) > div {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            border-width: 0.2rem;
+            border-style: solid;
+            border-color: transparent;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            display: flex; }
+            .container .body .con-right > div:nth-child(1) > div:nth-child(2) > div > div {
+              height: 100%; }
+              .container .body .con-right > div:nth-child(1) > div:nth-child(2) > div > div > img {
+                vertical-align: middle; }
+            .container .body .con-right > div:nth-child(1) > div:nth-child(2) > div > div {
+              flex: 1; }
+            .container .body .con-right > div:nth-child(1) > div:nth-child(2) > div::before {
+              content: attr(data-content);
+              color: #FFF;
+              font-size: 0.14rem;
+              position: absolute;
+              display: block;
+              right: 0;
+              top: 0; }
+            .container .body .con-right > div:nth-child(1) > div:nth-child(2) > div::after {
+              content: attr(data-content2);
+              font-size: 0.10rem;
+              color: #636363;
+              display: block;
+              font-variant: all-small-caps;
+              position: absolute;
+              left: 1.2rem;
+              top: 0; }
+      .container .body .con-right > div:nth-child(2) {
+        background-image: url("../img/bg/left-2.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        -webkit-border-radius: 0.06rem;
+        -moz-border-radius: 0.06rem;
+        border-radius: 0.06rem;
+        position: relative;
+        width: 100%;
+        height: 3.72rem;
+        margin-top: 0.2rem; }
+        .container .body .con-right > div:nth-child(2) > div {
+          border-width: 0.2rem;
+          border-style: solid;
+          border-color: transparent;
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          width: 100%;
+          height: 100%;
+          position: relative; }
+          .container .body .con-right > div:nth-child(2) > div::before {
+            content: attr(data-content);
+            color: #FFF;
+            font-size: 0.14rem;
+            position: absolute;
+            display: block;
+            right: 0;
+            top: 0; }
+          .container .body .con-right > div:nth-child(2) > div::after {
+            content: attr(data-content2);
+            font-size: 0.10rem;
+            color: #636363;
+            display: block;
+            font-variant: all-small-caps;
+            position: absolute;
+            left: 0.8rem;
+            top: 0; }
+
+.map-tip-con {
+  position: absolute;
+  width: 2.39rem;
+  height: 2.2rem;
+  top: 2.4rem;
+  left: 6.3rem;
+  right: auto;
+  bottom: auto;
+  background-color: rgba(17, 29, 148, 0.18);
+  border-width: 0.01rem;
+  border-color: rgba(78, 85, 144, 0.4);
+  border-style: solid;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+  .map-tip-con::before {
+    content: "";
+    position: absolute;
+    width: 0.04rem;
+    height: 0.04rem;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: auto;
+    display: block;
+    border-width: 0.01rem 0 0 .01rem;
+    border-style: solid;
+    border-color: #00fff6;
+    z-index: 1; }
+  .map-tip-con::after {
+    content: "";
+    position: absolute;
+    width: 0.03rem;
+    height: 0.04rem;
+    top: 0;
+    left: auto;
+    right: 0;
+    bottom: auto;
+    display: block;
+    border-width: 0.01rem .01rem 0 0;
+    border-style: solid;
+    border-color: #00fff6;
+    z-index: 1; }
+  .map-tip-con .map-tip {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 0.1rem solid transparent;
+    box-sizing: border-box; }
+    .map-tip-con .map-tip::before {
+      content: "";
+      position: absolute;
+      width: 0.04rem;
+      height: 0.04rem;
+      top: auto;
+      left: -0.1rem;
+      right: auto;
+      bottom: -0.1rem;
+      display: block;
+      border-width: 0 0 .01rem 0.01rem;
+      border-style: solid;
+      border-color: #00fff6;
+      z-index: 1; }
+    .map-tip-con .map-tip::after {
+      content: "";
+      position: absolute;
+      width: 0.03rem;
+      height: 0.04rem;
+      top: auto;
+      left: auto;
+      right: -0.1rem;
+      bottom: -0.1rem;
+      display: block;
+      border-width: 0 0.01rem .01rem 0;
+      border-style: solid;
+      border-color: #00fff6;
+      z-index: 1; }
+    .map-tip-con .map-tip > p {
+      padding-top: 0.1rem;
+      color: white;
+      font-size: 0.12rem;
+      display: flow-root; }
+      .map-tip-con .map-tip > p > span {
+        float: right; }
+        .map-tip-con .map-tip > p > span img {
+          width: 0.16rem;
+          height: 0.15rem; }
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0); }
+  to {
+    opacity: 1;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); } }
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.map-cc-con {
+  transform: scale(1, 1);
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0);
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  width: 100%;
+  height: 100%;
+  z-index: 99999; }
+
+.map-jt-con {
+  transform: scale(0, 0); }
+
+@-webkit-keyframes fadeOutMini {
+  from {
+    transform: scale(1, 1);
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0);
+    left: 0%;
+    top: 0%; }
+  to {
+    transform: scale(0.2, 0.2);
+    border-radius: 10%;
+    background: rgba(9, 20, 103, 0.6);
+    left: -38%;
+    top: -38%; } }
+@keyframes fadeOutMini {
+  from {
+    transform: scale(1, 1);
+    border-radius: 0;
+    background: rgba(255, 255, 255, 0);
+    left: 0%;
+    top: 0%; }
+  to {
+    transform: scale(0.2, 0.2);
+    border-radius: 10%;
+    background: rgba(9, 20, 103, 0.6);
+    left: -38%;
+    top: -38%; } }
+.fadeOutMini {
+  -webkit-animation-name: fadeOutMini;
+  animation-name: fadeOutMini;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fadeOutNormal {
+  from {
+    transform: scale(0.2, 0.2);
+    border-radius: 0;
+    background: rgba(9, 20, 103, 0.6);
+    left: -38%;
+    top: -38%; }
+  to {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background: rgba(255, 255, 255, 0);
+    left: 0%;
+    top: 0%; } }
+@keyframes fadeOutNormal {
+  from {
+    transform: scale(0.2, 0.2);
+    border-radius: 0;
+    background: rgba(9, 20, 103, 0.6);
+    left: -38%;
+    top: -38%; }
+  to {
+    transform: scale(1, 1);
+    border-radius: 0%;
+    background: rgba(255, 255, 255, 0);
+    left: 0%;
+    top: 0%; } }
+.fadeOutNormal {
+  -webkit-animation-name: fadeOutNormal;
+  animation-name: fadeOutNormal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+.map-cc-con.fadeOutMini::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 999999;
+  cursor: pointer;
+  border: 0.02rem solid #217cff;
+  border-radius: 10%; }
+
+@-webkit-keyframes fadeInNormal {
+  from {
+    transform: scale(0, 0); }
+  to {
+    transform: scale(1, 1); } }
+@keyframes fadeInNormal {
+  from {
+    transform: scale(0, 0); }
+  to {
+    transform: scale(1, 1); } }
+.fadeInNormal {
+  -webkit-animation-name: fadeInNormal;
+  animation-name: fadeInNormal;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-delay: 0.5s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+@-webkit-keyframes fadeInMini {
+  from {
+    transform: scale(1, 1); }
+  to {
+    transform: scale(0, 0); } }
+@keyframes fadeInMini {
+  from {
+    transform: scale(1, 1); }
+  to {
+    transform: scale(0, 0); } }
+.fadeInMini {
+  -webkit-animation-name: fadeInMini;
+  animation-name: fadeInMini;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both; }
+
+/*# sourceMappingURL=style.css.map */

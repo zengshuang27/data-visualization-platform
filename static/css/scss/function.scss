@@ -1,0 +1,25 @@
+@mixin containerAbsolute($Width,$Height,$Top,$Bottom,$Left,$Right){
+  position: absolute;
+  width: $Width;
+  height: $Height;
+  top: $Top;
+  left: $Left;
+  right: $Right;
+  bottom: $Bottom;
+}
+@mixin containerRelative($Width,$Height,$MarginTop){
+  position: relative;
+  width: $Width;
+  height: $Height;
+  margin-top: $MarginTop;
+}
+@mixin containerRadius($Radius){
+  -webkit-border-radius: $Radius;
+  -moz-border-radius: $Radius;
+  border-radius: $Radius;
+}
+@mixin containerBG($Url){
+  background-image: url($Url);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

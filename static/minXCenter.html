@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/mxCenter.css">
+	<title>民需中心</title>
+</head>
+<body>
+<div class="allWrap" id="">
+	<div class="titleWrap"onclick="goback()" style="cursor:pointer;">
+		<img src="img/mxzxy.png" alt="" width="100%" height="100%">
+		<div id="date">2019</div>
+		<div id="time">2019</div>
+	</div>
+	<div class="leftCon">
+		<div class="leftContop" id="leftTop1" >
+		</div>
+		<div class="leftConBottom">
+			<h4 class="bigTit">民需处理流程<span></span></h4>
+			<div class="tcr1" id="tcr1" style="width:49%;height:45%;margin-top:40px;display:inline-block;">
+
+			</div>
+			<div class="tcr2"  id="tcr2"  style="width:49%;height:45%;display:inline-block;"></div>
+			<div class="tcr3"  id="tcr3"  style="width:98%;height:45%;"></div>
+		</div>
+	</div>
+
+	<div class="centerCon">
+		<div class="centerConTop" id="c1">
+
+		</div>
+		<div class="centerConBottom" id="c2"></div>
+	</div>
+
+
+	<div class="rightCon">
+		<div class="rightConTop" id="r1">
+
+		</div>
+		<div class="rightConCenter" id="r2">
+
+		</div>
+	</div>
+</div>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/echarts.min.js"></script>
+<script src="js/ech.js"></script>
+<script src="js/worldcloud.js"></script>
+<script src="js/mxCenter.js"></script>
+<script>
+	/* 日期时间 */
+	function goback() {
+		window.location.href = "homepage.html"
+	}
+	function show(){
+		var mydate = new Date();
+		var str1 = "" + mydate.getFullYear();
+		var str2 = (mydate.getMonth()+1);
+		var str3 = mydate.getDate();
+		var shi =mydate.getHours() + "时";
+		var fen =mydate.getMinutes() + "分";
+		var miao =mydate.getSeconds() + "秒";
+		$("#date").html(str1+'/'+str2+'/'+str3)
+	}
+	show()
+	function show1(){
+		function p(s) {
+			return s < 10 ? '0' + s: s;
+		}
+		var myDate = new Date();
+		//获取当前年
+		var year=myDate.getFullYear();
+		//获取当前月
+		var month=myDate.getMonth()+1;
+		//获取当前日
+		var date=myDate.getDate();
+		var h=myDate.getHours();       //获取当前小时数(0-23)
+		var m=myDate.getMinutes();     //获取当前分钟数(0-59)
+		var s=myDate.getSeconds();
+		var now = p(h)+':'+p(m)+":"+p(s);
+		$("#time").html(now);
+	}
+	show1()
+	leftTop1();
+	$(document).ready(function(){
+		//循环执行，每隔1秒钟执行一次 1000
+		var t1 = window.setInterval(show1, 1000);
+		/*  function refreshCount() {
+           console.log("ready");
+         } */
+		//去掉定时器的方法
+		//window.clearInterval(t1);
+	});
+	tcr1();
+	tcr2();
+	tcr3();
+	/* 中下 */
+	centerTopf();
+	centerBottom();
+	rightTop();
+	rightBottom()
+</script>
+</body>
+</html>
